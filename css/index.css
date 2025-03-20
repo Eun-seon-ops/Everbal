@@ -289,7 +289,7 @@ body {
 .product_nav a {
     border: 1px solid #333;
     padding: 8px 38px;
-    margin: 80px;
+    margin: 0 0 80px;
     display: inline-block;
 }
 
