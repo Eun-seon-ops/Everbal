@@ -21,7 +21,11 @@ var swiper = new Swiper(".mySwiper", {
       el: ".best_in .swiper-pagination",
       clickable: true,
     },
-    loop: true
+    loop: true,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+    },
   });
 
   var swiper = new Swiper(".review_in", {
@@ -32,5 +36,9 @@ var swiper = new Swiper(".mySwiper", {
       el: ".review_in .swiper-pagination",
       clickable: true,
     },
-    loop: true
+    loop: true,
+    autoplay: {
+      delay: 8000,
+      disableOnInteraction: false,
+    },
   });
