@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     loop: true,
     autoplay: {
-      delay: 6500,
+      delay: 3000,
       disableOnInteraction: false,
     },
   });
@@ -38,7 +38,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     loop: true,
     autoplay: {
-      delay: 8000,
+      delay: 3000,
       disableOnInteraction: false,
     },
   });
